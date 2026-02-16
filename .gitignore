@@ -47,3 +47,6 @@ venv/
 # IDE files
 .vscode/
 .idea/
+runs/
+*.cache
+*.db
