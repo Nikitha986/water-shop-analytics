@@ -2,45 +2,6 @@
 
 This project is designed to analyze CCTV footage from a water shop to track customer visits, detect payment modes, and monitor operational insights.
 
-## Folder Structure
-
-```
-water-shop-analytics/
-│
-├── app_v2.py                # Main application script for analyzing CCTV footage
-├── app.py                   # Legacy application script
-├── analytics.py             # Analytics-related functions
-├── config.py                # Configuration settings
-├── requirements.txt         # Python dependencies
-├── README.md                # Project documentation
-├── data/                    # Data storage
-│   ├── raw/                 # Raw data and datasets
-│   ├── processed/           # Processed data
-│   └── logs/                # Log files
-├── models/                  # Pretrained models
-│   └── pretrained/          # Pretrained model files
-├── notebooks/               # Jupyter notebooks for analysis
-├── tests/                   # Test scripts
-│   ├── test_video.py
-│   ├── test_modules.py
-│   └── test_can.py
-├── utils/                   # Utility scripts
-│   ├── analytics_utils.py
-│   ├── debug_can_detect.py
-│   ├── debug_detect.py
-│   ├── extract_frames.py
-│   ├── reid.py
-│   ├── tracker.py
-│   └── utils.py
-├── videos/                  # Video files
-└── features/                # Feature-specific modules
-    ├── analytics.py
-    ├── can_detection.py
-    ├── customer_database.py
-    ├── payment_detection.py
-    ├── person_tracking.py
-    └── __init__.py
-```
 
 ## Features
 
@@ -94,6 +55,12 @@ water-shop-analytics/
 - NumPy
 - Ultralytics YOLO
 
-## License
+  
+Contributions, suggestions, and improvements are welcome.
 
-This project is licensed under the MIT License.
+If you’d like to collaborate:
+
+1. Fork the repository
+2. Create a new branch
+3. Make your changes
+4. Submit a pull request
